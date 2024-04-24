@@ -1,0 +1,103 @@
+/* SETUP */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    color: #667085;
+    font-weight: 300;
+}
+
+/* PROJECT CSS */
+/* .nav-bar, .nb-left, .nb-right, .nbr-menu, .nbr-btn{
+    border: 1px solid red;
+} */
+
+.nav-bar{
+    height: 72px;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 72px;
+}
+
+.nb-left{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nb-left img{
+    height: 60px;
+    width: 60px;
+}
+
+.nb-right{
+    height: 100%;
+    width: 50%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.nbr-menu{
+    height: 100%;
+    width: 65%;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#menu-apropos{
+    color: black;
+    font-weight: 600;
+    text-decoration: underline black;
+}
+
+.nbr-menu p a{
+    color: #667085;
+    text-decoration: none;
+}
+
+
+.nbr-btn{
+    height: 100%;
+    width: 35%;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.btn-black{
+    width: 100px;
+    height: 60px;
+    background-color: #000000;
+    color : white;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.btn-white{
+    width: 100px;
+    height: 60px;
+    background-color: #FFFFFF;
+    color : black;
+    font-size: 20px;
+    border-radius: 8px;
+}
